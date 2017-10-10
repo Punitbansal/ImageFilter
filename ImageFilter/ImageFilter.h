@@ -14,6 +14,7 @@ FOUNDATION_EXPORT double ImageFilterVersionNumber;
 //! Project version string for ImageFilter.
 FOUNDATION_EXPORT const unsigned char ImageFilterVersionString[];
 
+
 // In this header, you should import all the public headers of your framework using statements like #import <ImageFilter/PublicHeader.h>
 
 
