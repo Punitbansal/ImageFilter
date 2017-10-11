@@ -15,12 +15,12 @@ public class ImageFilter {
     }
     public class func imageForName (name:String) -> UIImage {
         
-        return UIImage(named: "auto_renew_on", in: Bundle(for:NSClassFromString("ImageFilter")!), compatibleWith: nil) ?? UIImage()
+        return UIImage(named: "Image", in: Bundle(for:NSClassFromString("ImageFilter")!), compatibleWith: nil) ?? UIImage()
     }
     
     
     public func imageForName (name:String) -> UIImage {
         
-        return UIImage(named: "auto_renew_on", in: Bundle(for: type(of: self) as! AnyClass), compatibleWith: nil) ?? UIImage()
+        return UIImage(named: "Image", in: Bundle(for: type(of: self) as! AnyClass), compatibleWith: nil) ?? UIImage()
     }
 }

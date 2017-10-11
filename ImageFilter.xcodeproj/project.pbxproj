@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3806D7E01F8E29A00047FAE9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3806D7DF1F8E29A00047FAE9 /* Media.xcassets */; };
 		3849916B1F8CCA6500C89193 /* ImageFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 384991691F8CCA6500C89193 /* ImageFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		384991721F8CCA7A00C89193 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384991711F8CCA7A00C89193 /* ImageFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3806D7DF1F8E29A00047FAE9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		384991661F8CCA6500C89193 /* ImageFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384991691F8CCA6500C89193 /* ImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
 		3849916A1F8CCA6500C89193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				384991711F8CCA7A00C89193 /* ImageFilter.swift */,
 				384991691F8CCA6500C89193 /* ImageFilter.h */,
 				3849916A1F8CCA6500C89193 /* Info.plist */,
+				3806D7DF1F8E29A00047FAE9 /* Media.xcassets */,
 			);
 			path = ImageFilter;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3806D7E01F8E29A00047FAE9 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 				384991701F8CCA6500C89193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
