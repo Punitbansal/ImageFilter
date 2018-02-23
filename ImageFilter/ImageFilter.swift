@@ -19,7 +19,7 @@ public class ImageFilter {
     }
     
     
-    public func imageForName (name:String) -> UIImage {
+    private func imageForName (name:String) -> UIImage {
         
         return UIImage(named: "Image", in: Bundle(for: type(of: self) as! AnyClass), compatibleWith: nil) ?? UIImage()
     }
